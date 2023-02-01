@@ -13,9 +13,47 @@
         echo "Hello world! My name is \"David\"";
         ?>
 
-    <h3> Current Date </h3>
+    <h3> 3.3 Current Date </h3>
         <?php
         echo date("d.m.Y")
         ?>
+
+    <h3> 3.4 Variable in PHP </h3>
+        <?php
+        $title1 = "PHP is interesting";
+        echo "<h1>" . $title1 . "</h1>"
+        ?>
+
+    <h3> 3.5 Table & Variables </h3>
+        <?php
+        $g1 = 5;
+        $g2 = 4;
+        $g3 = 5;
+
+        echo "
+        <table>
+
+        <tr>
+        <th> S.N. </th> <th> Name </th> <th> Grade </th>
+        </tr>
+
+        <tr>
+        <th> 1 </th> <th> Shehan </th> <th> $g1 </th>
+        </tr>
+
+        <tr>
+        <th> 2 </th> <th> Shammi </th> <th> $g2 </th>
+        </tr>
+
+        <tr>
+        <th> 3 </th> <th> Kushani </th> <th> $g3 </th>
+        </tr>
+
+        </table>
+
+        ";
+        ?>
+
+
 
 <?php include "footer.php" ?>
