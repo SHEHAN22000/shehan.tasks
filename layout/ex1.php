@@ -54,6 +54,7 @@
         ";
         ?>
 
-
+    <h3> 4 Screenshot of the development environment </h3>
+        <img src="Ex1.png" alt="docker screenshot" style="width: 90%">
 
 <?php include "footer.php" ?>
