@@ -32,15 +32,8 @@
           <a class="home" href="index.html"><img class="home" src="images/home.png" alt="home button"> </a>
         </div>
 
-<h2>There is always something for everyone.</h2>
       </div>
 
-      <div class="row2">
-        <div class="col-md-8">
-          <p>Bon Appétit is located in the historic premises of the Swedish Theater in Helsinki. Here we serve, among other things, classic dishes such as Biff Rydberg, a classic Skagen, Skaldjursplatå and other delicacies. We invest in high-quality service, good drinks and good ingredients. We also manage the intermission service at the Swedish Theatre, which you can book in advance.</p>         
-          <p>At Bon Appétit we serve grilled premium hamburgers and kebabs with good accessories and top quality ingredients. We invest in small-scale preparation and cooking, freshly baked bread and the house's own dressings.</p>
-        </div>
-      </div>
 
       <div class="row3">
         <a class="card1" href="break.html">
@@ -68,25 +61,6 @@
         </a>
 
       </div>
-
-      <footer>
-          <div class="footer-box">
-
-            <div>
-              <P>&copy; TEAM-13 - HAMK 2023<br>
-                 Vankanlähde 9, 13100 Hämeenlinna.</P>
-            </div>
-            
-            <div>
-              <P>Email: bon.appétit@gmail.fi</P>
-            </div>
-
-            <div>
-              <P>Tel: <a href="tel:+358101010101">+358 1010 10101</a></p>
-            </div>
-
-          </div>
-      </footer>
     
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

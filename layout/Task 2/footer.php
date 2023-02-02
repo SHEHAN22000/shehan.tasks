@@ -1,12 +1,14 @@
 </div>
   </div>
   <div class="row">
-<footer style="background-color: rgb(65, 7, 109); color: white;">
+<footer style="background-color: #ffde00; color: #222629;">
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright
-  </div>
-  <!-- Copyright -->
+<div class="footer-copyright text-left py-3">&copy; TEAM-13 - HAMK 2023<br>
+Vankanlähde 9, 13100 Hämeenlinna.</div>
+
+<div class="footer-copyright text-center py-3">Email: bon.appétit@gmail.fi</div>
+
+<div class="footer-copyright text-right py-3">Tel: <a href="tel:+358101010101">+358 1010 10101</a></div>
 
 </footer></div>
 </div>

@@ -16,7 +16,7 @@
 <body>
   <div class="container" >
     <div class="row">
-  <nav class="navbar navbar-expand-lg" style="background-color: rgb(65, 7, 109);" >
+  <nav class="navbar navbar-expand-lg" style="background-color: #ffde00;" >
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Shehan Senanayake</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,8 @@
 </div> 
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
-      <h3>List of Tasks</h3>
-      something here
+      <h3>There is always something for everyone.</h3> <br>
+      <p>Bon Appétit is located in the historic premises of the Swedish Theater in Helsinki. Here we serve, among other things, classic dishes such as Biff Rydberg, a classic Skagen, Skaldjursplatå and other delicacies. We invest in high-quality service, good drinks and good ingredients. We also manage the intermission service at the Swedish Theatre, which you can book in advance.</p>         
+          <p>At Bon Appétit we serve grilled premium hamburgers and kebabs with good accessories and top quality ingredients. We invest in small-scale preparation and cooking, freshly baked bread and the house's own dressings.</p>
     </div>
     <div class="col-sm-9">
