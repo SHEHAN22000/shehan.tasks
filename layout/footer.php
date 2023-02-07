@@ -4,7 +4,11 @@
 <footer style="background-color: rgb(65, 7, 109); color: white;">
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright
+  <div class="footer-copyright text-center py-3">© 2020 Copyright <br>
+  
+  <?php 
+  echo "Last modified on " . date('l, jS \of F, Y, h:i:s A');
+  ?>
   </div>
   <!-- Copyright -->
 
