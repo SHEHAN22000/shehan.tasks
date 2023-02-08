@@ -73,12 +73,12 @@
 
 <?php
 
-    function getBrowser()
-    {
-    $user_agent = $_SERVER['HTTP_USER_AGENT'];
-    $browser = "N/A";
+ function getBrowser()
+ {
+   $user = $_SERVER['HTTP_USER_AGENT'];
+   $browser = "N/A";
 
-    $browsers = [
+   $browser = [
      '/msie/i' => 'Internet explorer',
      '/firefox/i' => 'Firefox',
      '/safari/i' => 'Safari',
@@ -86,20 +86,21 @@
      '/edge/i' => 'Edge',
      '/opera/i' => 'Opera',
      '/mobile/i' => 'Mobile browser',
-    ];
+   ];
 
 
-   foreach ($browsers as $regex => $value) 
-    {
-     if (preg_match($regex, $user_agent)) 
-    {
-       $browser = $value;
+   foreach ($browser as $a => $name) 
+{
+     if (preg_match($a, $user)) 
+{
+       $browser = $name;
      }
-    }
-    return $browser;
-}
+   }
+   return $browser;
 
-    echo "You are using: " . getBrowser();
+ }
+
+ echo "You are using: " .getBrowser();
 
 ?>
 
