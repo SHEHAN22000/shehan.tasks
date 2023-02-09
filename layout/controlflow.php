@@ -66,7 +66,7 @@
         echo $name . ", You are not eligible for vote. ";
     }
     }
-    check_vote(); 
+    check_vote();
 ?>
 
 <h2> 5. If someone is using Chrome it should print, you are using Goolge Chrome….</h2>
