@@ -22,7 +22,7 @@
         echo"
 
         <tr>
-        <td>$row[id]</td>
+        <td><a href='udatesingle.php?= $row[id]'>$row[id]>/a></td>
         <td>$row[fname]</td>
         <td>$row[lname]</td>
         <td>$row[city]</td>
@@ -33,7 +33,7 @@
     echo "</table>";
     }
     else
-        {  
+        {
             echo "NO Results";
         }
 
