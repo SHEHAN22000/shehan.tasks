@@ -22,7 +22,7 @@
         echo"
 
         <tr>
-        <td><a href='udatesingle.php?= $row[id]'>$row[id]>/a></td>
+        <td><a href='updatesingle.php?id=$row[id]' >$row[id]</a></td>
         <td>$row[fname]</td>
         <td>$row[lname]</td>
         <td>$row[city]</td>
