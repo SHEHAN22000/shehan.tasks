@@ -17,7 +17,7 @@ $row = mysqli_fetch_array($result);
 <input type="text" name="lname" placeholder="Lirst Name" required value="<?php echo $row['lname']; ?>"> <br><br>
 <input type="text" name="city" placeholder="City" required value="<?php echo $row['city']; ?>"> <br><br>
 
-<select name="cname" value="<?php echo $row['groupid']?>">
+<select name="groupid" value="<?php echo $row['groupid']?>">
     <option value="BBCAP22"> BBCAP22 </option>
     <option value="BBCAP21"> BBCAP21 </option>
     <option value="Others"> Others </option>
