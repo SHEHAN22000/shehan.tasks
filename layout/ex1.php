@@ -61,7 +61,7 @@ document.write("Hello this is interesting");
 
 <script>
     document.getElementById("place1").innerHTML="This will go to place1";
-    document.getElementById("place2").innerHTML="This will go to span";
+    document.getElementById("place2").innerHTML="This will go to place1";
 </script>
 
         <?php
