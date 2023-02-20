@@ -26,6 +26,9 @@
 <noscript>
 Please enable JavaScript to view this document,
 </noscript>
+
+<input type="button" onclick="hello()" value="Click Me">
+
 <br><br>
 
     <h3> 3.4 Variable in PHP </h3>
@@ -34,7 +37,33 @@ Please enable JavaScript to view this document,
         echo "<h1>" . $title1 . "</h1>"
         ?>
 
+<script>
+//window.alert
+//window.alert("This will trigger an alert box");
+//window.alert(5+10);
+//document.write
+document.write("Hello this is interesting");
+</script>
+<br><br>
+
     <h3> 3.5 Table & Variables </h3>
+
+    <button onclick="add()"> Click to Add </button>
+    <hr>
+    <p id="place1"> </p>
+
+    <script>
+    document.getElementById("palce1").innerHTML = "This will go place1";
+    <hr>
+    <p id="place1" style="color:red; background-color:yellow;"> </p>
+    <span id="place2" style="color:red; background-color:yellow;"> </span>
+    </script>
+
+<script>
+    document.getElementById("place1").innerHTML="This will go to place1";
+    document.getElementById("place2").innerHTML="This will go to span";
+</script>
+
         <?php
         $g1 = 5;
         $g2 = 4;
@@ -66,5 +95,10 @@ Please enable JavaScript to view this document,
 
     <h3> 4 Screenshot of the development environment </h3>
         <img src="Ex1.png" alt="docker screenshot" style="width: 90%">
+
+        <h2> Changing the background color </h2>
+        <form>
+        <input type="color" name = "background" onchange="changeColor('background',this.value)">
+        </form>
 
 <?php include "footer.php" ?>
