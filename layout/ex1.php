@@ -53,7 +53,7 @@ document.write("Hello this is interesting");
     <p id="place1"> </p>
 
     <script>
-    document.getElementById("palce1").innerHTML = "This will go place1";
+    document.getElementById("place1").innerHTML = "This will go place1";
     <hr>
     <p id="place1" style="color:red; background-color:yellow;"> </p>
     <span id="place2" style="color:red; background-color:yellow;"> </span>
