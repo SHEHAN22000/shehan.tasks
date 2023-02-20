@@ -18,6 +18,16 @@
         echo date("d.m.Y")
         ?>
 
+<br><br>
+<script>
+    document.write("Hello world this is JavaScript");
+</script>
+
+<noscript>
+Please enable JavaScript to view this document,
+</noscript>
+<br><br>
+
     <h3> 3.4 Variable in PHP </h3>
         <?php
         $title1 = "PHP is interesting";
