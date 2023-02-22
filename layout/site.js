@@ -8,7 +8,6 @@ function add(){
     document.write(5+6);
 }
 
-
 //document.getElementById(id)
 //display or like echo
 //document.write
@@ -22,3 +21,15 @@ function changeColor(where,newColor){
         document.body.style.backgroundColor = newColor;
     }    
 }
+
+//function to change the background color of the page
+function changeColor(){
+let color = document.getElementById('background').value;
+document.body.style.backgroundColor = color;
+}
+
+//function to change the font color of the page
+function changeFcolor(){
+    let fcolor = document.getElementById('fcolor').value;
+    document.body.style.color = fcolor;
+    }
