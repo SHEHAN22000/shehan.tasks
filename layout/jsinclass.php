@@ -10,13 +10,14 @@ include "header.php" ?>
 <p id="p1"> </p>
 
 <h2> Change the background color </h2>
-<form> 
-    <input type="color" id="background" onchange="changeColor()">
+<form>
+<input type="color" id="background" onchange="changeColor1()">
 </form>
 
+
 <h2> Change the font color </h2>
-<form> 
-    <input type="color" id="fcolor" onchange="changeFcolor()">
+<form>
+<input type="color" id="fcolor" onchange="changeFcolor()">
 </form>
 
 <h2> On Mouse Over & Out </h2>

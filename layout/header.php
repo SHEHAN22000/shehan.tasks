@@ -13,7 +13,7 @@
 }
     </style>
 
-    <script src="../js/site.js"> </script>
+    <script src="../layout/site.js"> </script>
     
 </head>
 <body>
