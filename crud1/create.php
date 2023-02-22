@@ -3,8 +3,8 @@ $title = "A simple CRUD app";
 include '../layout/header.php';
 ?>
 
-<form method = "post" action="">
-    <input type="text" name="fname" placeholder="First Name" required > <br><br>
+<form method = "post" action="" onsubmit="return crud()" name="form1">
+    <input type="text" name="fname" placeholder="First Name" required onblur="fname()"> <br><br>
     <input type="text" name="lname" placeholder="Lirst Name" required > <br><br>
     <input type="text" name="city" placeholder="City" required >
 

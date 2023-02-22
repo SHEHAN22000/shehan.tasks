@@ -33,3 +33,24 @@ function changeFcolor(){
     let fcolor = document.getElementById('fcolor').value;
     document.body.style.color = fcolor;
     }
+
+// crud
+function crud(){
+
+    let fname=(document.form1.fname.value).trim();
+    if (fname.length<5){
+        alert("First name must have at least characters");
+        return false;
+    }
+
+}
+
+function fnameVal(){
+
+    let fname=(document.form1.fname.value).trim();
+    if (fname.length<5){
+        alert("First name must have at least characters");
+        return false;
+    }
+
+}
