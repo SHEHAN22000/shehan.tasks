@@ -5,7 +5,7 @@ include '../layout/header.php';
 
 <form method = "post" action="" onsubmit="return crud()" name="form1">
     <input type="text" name="fname" placeholder="First Name" required onblur="fname()"> <br><br>
-    <input type="text" name="lname" placeholder="Lirst Name" required > <br><br>
+    <input type="text" name="lname" placeholder="Last Name" required > <br><br>
     <input type="text" name="city" placeholder="City" required >
 
     <select name="groupid">
